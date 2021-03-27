@@ -5,20 +5,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Angora</title>
     <link rel="icon" href="images/icon.png">
 </head>
 <body>
-<header class="header">
+<header id="home" class="header">
     <div class="header-inner">
         <div class="container px-lg-5">
             <nav class="navbar navbar-expand-lg">
-                <img src="images/logo-white.png" alt="">
+                <a href="#"><img src="images/logo-white.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -28,25 +30,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                            <a class="nav-link" href="#team">Team</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item nav-icons">
                             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -283,10 +285,10 @@
 <section class="info-box py-5">
     <div class="container">
         <div class="row w-75 m-auto">
-            <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+            <div class="col-sm-8 text-center">
                 <h3 class="lowercase">Do you have any ideas?</h3>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-4 pull-right text-center ml-auto">
+            <div class="col-sm-4 pull-right text-center ml-auto">
                 <a href="#" class="btn btn-default">Contact Us</a>
             </div>
 
@@ -294,7 +296,7 @@
     </div>
 </section>
 
-<section id="services" class="services">
+<section id="services" class="services bg-grey">
     <!-- Container -->
     <div class="container">
         <div class="row w-75 m-auto py-5">
@@ -312,7 +314,7 @@
         <div class="row">
 
             <!-- Service 1 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-laptop fa-2x"></i>
                     <div class="service-text">
@@ -326,7 +328,7 @@
             </div>
 
             <!-- Service 2 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-pencil-ruler fa-2x"></i>
                     <div class="service-text">
@@ -340,7 +342,7 @@
             </div>
 
             <!-- Service 3 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-flag fa-2x"></i>
                     <div class="service-text">
@@ -352,15 +354,8 @@
                     </div>
                 </div>
             </div>
-
-        </div>
-
-        <div class="empty-30 hidden-xs"></div>
-
-        <div class="row">
-
             <!-- Service 4 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="far fa-address-card fa-2x"></i>
                     <div class="service-text">
@@ -373,7 +368,7 @@
                 </div>
             </div>
             <!-- Service 5 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-cog fa-2x"></i>
                     <div class="service-text">
@@ -386,7 +381,7 @@
                 </div>
             </div>
             <!-- Service 6 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-headset fa-2x"></i>
                     <div class="service-text">
@@ -398,11 +393,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="empty-30 hidden-xs"></div>
-        <div class="row">
             <!-- Service 7 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-edit fa-2x"></i>
                     <div class="service-text">
@@ -415,7 +407,7 @@
                 </div>
             </div>
             <!-- Service 8 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fas fa-video fa-2x"></i>
                     <div class="service-text">
@@ -428,7 +420,7 @@
                 </div>
             </div>
             <!-- Service 9 -->
-            <div class="col-md-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6 pb-5">
                 <div class="service-single d-flex">
                     <i class="fab fa-mixer fa-2x"></i>
                     <div class="service-text">
@@ -469,7 +461,7 @@
             <div class="col-md-12 testimonial-carousel">
                 <!-- Media -->
                 <div class="block-media row">
-                    <div class="carousel-images testimonial-nav col-sm-8 col-sm-offset-2">
+                    <div class="carousel-images testimonial-nav col-sm-8">
                         <div>
                             <img src="images/client-1.png" alt="" class="img-responsive img-circle">
                             <div class="client-info">
@@ -595,13 +587,207 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+    <div class="container contact-form">
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Section title -->
+                <div class="section-title text-center m-auto">
+                    <h2 data-bigletter="G">Get In Touch</h2>
+                    <hr>
+                    <p>
+                        Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit, fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.
+                    </p>
+                </div>
 
             </div>
         </div>
 
-    </div>
+        <div class="contact-form-area">
 
+            <!-- Fields -->
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6 contact-info res-margin">
+
+                    <h3 class="lowercase">Get answers and advices from professional consultants.</h3>
+
+                    <div class="contact-content clearfix">
+                        <i class="fas fa-map-marked-alt fa-2x"></i>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-content clearfix">
+                        <i class="fas fa-mobile fa-2x"></i>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-content clearfix">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <div class="contact-text">
+                            <h4>Say Hello</h4>
+                            <p><a href="/cdn-cgi/l/email-protection#e4c7"><span class="__cf_email__" data-cfemail="e2878f838b8ea2918b96878c838f87cc818d8f">[email&nbsp;protected]</span></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="contact-form-holder">
+                        <div class="field">
+                            <input type="text" name="name" class="field-name" placeholder="Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" name="email" class="field-email" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <input type="text" name="phone" class="field-phone" placeholder="Phone">
+                        </div>
+                        <div class="field">
+                            <textarea name="message" class="field-message" rows="3" cols="10" placeholder="Message"></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div>
+                            <button type="submit" class="btn btn-default" id="contact-submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                        </div>
+                    </div>
+
+                    <!-- Submit Results -->
+                    <div class="contact-form-result">
+                        <h3>Thank You for the Email!</h3>
+                        <p>Your message has already arrived! We'll contact you shortly.</p>
+                        <h5>Good day.</h5>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 </section>
+
+
+<footer>
+    <!-- Back to top -->
+    <a href="#home" class="to-top"><i class="fas fa-chevron-up"></i></a>
+    <!-- Widgets -->
+    <div class="footer-widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!-- Footer logo -->
+                    <p class="footer-logo">
+                        <a href="#" title="Angora">
+                            <img src="images/icon.png" alt="Angora" data-rjs="2" data-rjs-processed="true">
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="empty-30"></div>
+
+            <div class="row">
+                <!-- Contact info -->
+                <div class="col-md-3 col-sm-6 res-margin">
+                    <div class="widget">
+                        <h5>Contact Info</h5>
+                        <div class="textwidget">
+                            <p>
+                                1650 Lombard Street,<br> San Francisco, CA 94123
+                            </p>
+                            <p>
+                                +1 (415) 876-3250<br>
+                                <a href="/cdn-cgi/l/email-protection#adc8c0ccc4c1eddec4d9c8c3ccc0c883cec2c0"><span class="__cf_email__" data-cfemail="7a1f171b13163a09130e1f141b171f54191517">[email&nbsp;protected]</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Useful links -->
+                <div class="col-md-3 col-sm-6 res-margin">
+                    <div class="widget">
+                        <h5>Useful Links</h5>
+
+                        <ul class="footer-menu">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Recent posts -->
+                <div class="col-md-3 col-sm-6 res-margin">
+                    <div class="widget">
+                        <h5>Recent Posts</h5>
+                        <ul class="footer-menu">
+                            <li><a href="blog-post.html">Sunset in Venice</a></li>
+                            <li><a href="blog-post.html">Aerial View of Village</a></li>
+                            <li><a href="blog-post.html">Lighted Concrete City</a></li>
+                            <li><a href="blog-post.html">The Little Ghost</a></li>
+                            <li><a href="blog-post.html">Royal Oats ft. Waldo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Tag cloud -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h5>Popular Tags</h5>
+                        <div class="tags clearfix">
+                            <a href="#" class="tag">HTML5</a>
+                            <a href="#" class="tag">CSS3</a>
+                            <a href="#" class="tag">jQuery</a>
+                            <a href="#" class="tag">UX / UI</a>
+                            <a href="#" class="tag">Web</a>
+                            <a href="#" class="tag">Graphic</a>
+                            <a href="#" class="tag">Design</a>
+                            <a href="#" class="tag">Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Social links -->
+                    <div class="footer-social">
+                        <a href="#" title="Twitter"><i class="fab fa-twitter fa-fw"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f fa-fw"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram fa-fw"></i></a>
+                        <a href="#" title="Dribbble"><i class="fab fa-dribbble fa-fw"></i></a>
+                        <a href="#" title="Pinterest"><i class="fab fa-pinterest fa-fw"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Text -->
+                    <p class="copyright">
+                        Copyright © 2020 <a href="#" target="_blank">Angora</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="js/jquery-3.5.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>

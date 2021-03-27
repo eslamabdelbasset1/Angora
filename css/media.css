@@ -1,0 +1,269 @@
+
+/*----------- Start Screen 576px ------------*/
+@media screen and (max-width: 576px)
+{
+    /*------------------ Start Html ------------*/
+    html {
+        font-size: 0.9rem;
+    }
+    /*------------------ End Html ------------*/
+    /*----------- End Navigation ------------*/
+    .navbar .navbar-toggler
+    {
+        background-color: #ebe1e1;
+        border: 2px solid #8d7575;
+        margin: 5px 0;
+    }
+    .navbar .navbar-collapse
+    {
+        background-color: #0f232e;
+        text-align: center;
+    }
+    .navbar-nav
+    {
+        margin: 15px;
+    }
+    .navbar-scroll .nav-item .nav-link,
+    .navbar-scroll .navbar-nav .nav-icons a
+    {
+        color: #fff;
+    }
+    .navbar-scroll .nav-item .nav-link:hover,
+    .navbar-scroll .navbar-nav .nav-icons a:hover
+    {
+        color: #f25454;
+        transition: 0.7s;
+    }
+    .team-member .team-details
+    {
+        margin-bottom: 20px;
+    }
+
+    .section-title h2 {
+        margin-bottom: 15px;
+        font-size: 3rem;
+        line-height: 25px;
+        font-weight: 600;
+    }
+
+    /*----------- start Group ------------*/
+    .about,
+    .team,
+    .services{
+        position: relative
+    }
+
+    .about h3.section-title,
+    .team h3.section-title,
+    .services h3.section-title
+    {
+        position: absolute;
+        bottom: 65%;
+        left: 50%;
+        transform: translatex(-50%);
+        font-size: 3.5rem;
+    }
+    .about .about-title,
+    .team .team-title,
+    .services .services-title{
+        position: relative
+    }
+
+    .about .about-title h2::before,
+    .team .team-title h2::before,
+    .services .services-title h2::before
+    {
+        content: "";
+        font-size: 2.5rem;
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width: 50px;
+        height: 1px;
+        transform: translateX(-50%);
+        background-color: #0b2e13;
+    }
+
+    .about .about-title:hover h2::before,
+    .team .team-title:hover h2::before,
+    .services .services-title:hover h2::before
+    {
+        width: 60px;
+    }
+
+    .about .about-title h2,
+    .team .team-title h2,
+    .services .services-title h2
+    {
+        font-size: 2rem;
+    }
+    /*----------- End Group ------------*/
+}
+/*----------- End Screen 576px ------------*/
+
+
+/*----------- Start Screen 768px ------------*/
+@media screen and (max-width: 768px)
+{
+    /*------------------ Start Html ------------*/
+    html {
+        font-size: 0.9rem;
+    }
+    /*------------------ End Html ------------*/
+
+    /*----------- Start Navigation ------------*/
+    .navbar{width: 95% !important;}
+    .navbar .navbar-toggler
+    {
+        background-color: #ebe1e1;
+        border: 2px solid #8d7575;
+        margin: 5px 0;
+    }
+    .navbar .navbar-collapse
+    {
+        background-color: #0f232e;
+        text-align: center;
+    }
+    .navbar-nav
+    {
+        margin: 15px;
+    }
+    .navbar-scroll .nav-item .nav-link,
+    .navbar-scroll .navbar-nav .nav-icons a
+    {
+        color: #fff;
+    }
+    .navbar-scroll .nav-item .nav-link:hover,
+    .navbar-scroll .navbar-nav .nav-icons a:hover {
+        color: #f25454;
+        transition: 0.7s;
+    }
+    /*----------- End Navigation ------------*/
+
+    /*----------- Start Team ------------*/
+    .team-member .team-details
+    {
+        margin-bottom: 20px;
+    }
+    /*----------- End Team ------------*/
+
+    /*----------- Start Info ------------*/
+    .info-box h3 {
+        font-size: 1.4rem;
+    }
+    .info-box .btn {
+        border-radius: 3px;
+
+        line-height: 1;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .section-title h2 {
+        margin-bottom: 15px;
+        font-size: 3rem;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .service-single > .icon {
+        position: relative;
+        display: block;
+        float: left;
+        font-size: 25px;
+        line-height: 10px;
+        font-weight: normal;
+        margin-right: 0;
+        text-align: center;
+        cursor: default;
+    }
+    /*----------- End Info ------------*/
+    /*----------- Start Service ------------*/
+    .service-single > .service-text {
+        position: relative;
+        float: left;
+        width: calc(100% - 40px);
+    }
+
+    .service-single h3 {
+        font-size: 12px;
+        margin-top: 0;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    /*----------- End Service ------------*/
+    /*----------- Start Testimonial ------------*/
+    .testimonial-carousel .carousel-images
+    {
+        margin: auto;
+    }
+    .testimonial-carousel .slick-slide .client-info h3 {
+        font-size: 12px !important;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    .testimonial-carousel .carousel-images .slick-slide .client-info span {
+
+        font-size: 9px !important;
+    }
+    .testimonial-carousel .carousel-text .single-box p {
+        font-size: 14px !important;
+        line-height: 1em;
+    }
+    /*----------- End Testimonial ------------*/
+    /*----------- Start Group ------------*/
+    .about,
+    .team,
+    .services{
+        position: relative
+    }
+
+    .about h3.section-title,
+    .team h3.section-title,
+    .services h3.section-title
+    {
+        position: absolute;
+        bottom: 65%;
+        left: 50%;
+        transform: translatex(-50%);
+        font-size: 3.5rem;
+    }
+
+    .about .about-title,
+    .team .team-title,
+    .services .services-title{
+        position: relative
+    }
+
+    .about .about-title h2::before,
+    .team .team-title h2::before,
+    .services .services-title h2::before
+    {
+        content: "";
+        font-size: 2.5rem;
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        width: 50px;
+        height: 1px;
+        transform: translateX(-50%);
+        background-color: #0b2e13;
+    }
+
+    .about .about-title:hover h2::before,
+    .team .team-title:hover h2::before,
+    .services .services-title:hover h2::before
+    {
+        width: 60px;
+    }
+
+    .about .about-title h2,
+    .team .team-title h2,
+    .section-title h2,
+    .services .services-title h2
+    {
+        font-size: 2rem;
+    }
+    /*----------- End Group ------------*/
+}
+/*----------- End Screen 768px ------------*/
